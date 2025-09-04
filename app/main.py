@@ -12,7 +12,7 @@ from app.fraud_model import HybridFraudDetectionModel, EnhancedAdaptiveRiskScore
 # Config
 # ==========================
 MODEL_PATH = "model/hybrid_fraud_detection_model.pkl"
-THRESHOLD = 0.23  # replace with your F1-optimal threshold
+THRESHOLD = 0.5  # replace with your F1-optimal threshold
 
 # ==========================
 # Load model
